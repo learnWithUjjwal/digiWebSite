@@ -33,7 +33,7 @@
     <a href="index.html"><img id="logo" src="images/ganja.png" height="50px" width="50px"></a>
     <h1 class="header__title">Digi Guru Inc</h1>
     <nav>
-      <ul id = "menu" class="menu">
+      <ul class="menu">
         <li class="menu-item"><a href="index.html">Home</a></li>
         <li id="course-menu" class="menu-item"><a href="#">Courses</a></li>
             <ul id="course-menu-submenu" class="sub-menu">
@@ -46,7 +46,28 @@
         <li class="menu-item"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <div id="menu-mob" class="menu-mob" onclick="showMenu()"><span class="fa fa-list"></span></div><br>
+    <div id="menu-mob1" class="menu-mob" onclick="hideMenu()"><span class="fa fa-close" ></span></div><br>
+    <br>
   </header>
+   <div id="nav-mob" class="nav-mob">
+        <ul >
+        <li ><a href="index.html">Home</a></li>
+        <li >
+          <a href="#">Courses </a>
+          <span id="mob" class="fa fa-caret-down" onclick="showMe()" style="color:white; font-size:20px;"></span>
+          <span id="mob1" class="fa fa-caret-up" onclick="hideMe()" style="color:white; font-size:20px;display:none;"></span>
+        </li>
+            <ul id="mob-submenu" class="mob-submenu">
+              <li><a href="webdev.html">Web Development</a></li>
+              <li><a href="anddev.html">Android Development</a></li>
+              <li><a href="iosdev.html">Ios Development</a></li>
+              <li><a href="digmar.html">Digital Marketing</a></li>
+            </ul>  
+         <li ><a href="about.html">About</a></li>
+        <li ><a href="contact.html">Contact</a></li>
+      </ul>
+      </div>
 <!-- <img src="https://png.icons8.com/color/50/000000/icons8-logo.png"> -->
   <main class="main">
    
@@ -125,7 +146,7 @@
             </a>
             </div>          
          <div>
-            <a href="tel:+919810191702">
+            <a href="tel:+919560986608">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle-thin fa-stack-2x"></i>
                 <i class="fa fa-phone fa-stack-1x"></i>
