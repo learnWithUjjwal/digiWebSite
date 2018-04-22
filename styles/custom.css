@@ -67,6 +67,9 @@ footer{
 	color:white;
 
 }
+body{
+
+}
 
 .card1{
 	position:relative;
@@ -103,6 +106,8 @@ footer{
 
    body{
    	background: #ececec; 
+   	/*background-image: url('./../images/ios.jpg') !important;*/
+   	/*background-position: fixed;*/
    }
 
   html, body {
@@ -187,6 +192,21 @@ ul.mob-submenu li {
     }
     .menu-mob{
     	display: block;
+    }
+   
+
+}
+
+.main1{
+	display:none;
+}
+
+@media only screen and (max-width: 430px) {
+    .main1{
+    	display:block;
+    }
+    .main{
+    	display:none;
     }
    
 
