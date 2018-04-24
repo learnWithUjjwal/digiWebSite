@@ -39,3 +39,18 @@ var hideMenu = () => {
 	document.getElementById('menu-mob1').style.display = "none";
 	document.getElementById('menu-mob').style.display = "inline";
 }
+
+document.getElementById('form1').onclick = function(e){
+	// e.preventDefault();
+	var name = document.getElementById('name').value;
+	console.log(name);
+	if(/^\s*$/.test(name)){
+		console.log("hello" + name);
+		e.preventDefault();
+		document.getElementById('name').classList.add('error');
+		document.getElementById('name').focus();
+	}else{
+		document.getElementById('name').classList.remove('error');
+	}
+
+	}
