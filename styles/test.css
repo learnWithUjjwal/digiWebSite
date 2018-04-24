@@ -1,0 +1,13 @@
+.clock{
+	height:30px;
+	width:30px;
+	font-size: 15px;
+	border:1px solid black;
+	display:inline-block;
+	font-family: 'digital', sans-serif;
+}
+
+@font-face {
+font-family: ‘digital’;
+src: url(‘/fonts/digital-7.ttf’);
+}
