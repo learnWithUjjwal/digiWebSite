@@ -1,0 +1,31 @@
+.main3{
+	display:flex;
+}
+
+.main3 aside{
+	flex:1;
+	height:100%;
+	background-color: #4caf50
+}
+
+.main3 .card-container1{
+	flex:4!important;
+}
+
+aside ul li{
+	list-style-type: none;
+	border-bottom: 5px solid white;
+	font-size:25px;
+	}
+
+
+aside ul li:hover{
+	color:#4caf50;
+	background-color: white;
+	
+	}
+aside ul{
+	margin:0;
+	padding:0;
+
+}
